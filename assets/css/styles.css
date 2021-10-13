@@ -1,2 +1,97 @@
-
 /* css */
+
+h1{
+color: #22223B;
+background-color: #C9ADA7;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.intro{
+  height: 5%;
+  width: 100%;
+  background-color: #22223B;
+  padding-top: 50px;
+  padding-bottom: -50px;
+  display: inline-block;
+  margin-top: 100px;
+}
+img.translate{
+  height: 15vw;
+  width: 15vw;
+  left: -10vw;
+  top: -13vw;
+  display: inline-block;
+  position: relative;
+}
+.circle1{
+  height: 25vw;
+  width: 25vw;
+  top: 0vw;
+  left: 10vw;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #9A8C98;
+  position: relative;
+}
+h3.language{
+  color: #F2E9E4;
+  left: 15vw;
+  position: relative;
+  /* display: inline-block; */
+}
+.circle2{
+  height: 25vw;
+  width: 25vw;
+  top: -35vw;
+  left: 38vw;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #9A8C98;
+  position: relative;
+}
+img.book{
+  height: 15vw;
+  width: 15vw;
+  left: 18vw;
+  top: -48vw;
+  display: inline-block;
+  position: relative;
+}
+.circle3{
+  height: 25vw;
+  width: 25vw;
+  top: -35vw;
+  left: 25vw;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #9A8C98;
+  position: relative;
+}
+img.question{
+  height: 15vw;
+  width: 15vw;
+  left: 5vw;
+  top: -48vw;
+  display: inline-block;
+  position: relative;
+}
+h3.research{
+  color: #F2E9E4;
+  top: -26vw;
+  left: -35vw;
+  position: relative;
+  display: inline-block;
+}
+h3.learn{
+  color: #F2E9E4;
+  top: -26vw;
+  left: -15vw;
+  position: relative;
+  display: inline-block;
+}
+.tasks{
+  height: 10%;
+  width: 100%;
+  background-color: #F2E9E4;
+}
