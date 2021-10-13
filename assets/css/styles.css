@@ -134,12 +134,14 @@ p.experience{
   font-size: xxx-large;
   margin-bottom: 20px;
   margin-left: 20%;
+  margin-right: 20%;
   font-weight: 900;
 }
 p{
   color:#22223B;
   font-size: xx-large;
   margin-left: 20%;
+  margin-right: 20%;
   font-family: "Roboto", "Arial", sans-serif;
 }
 p.time{
