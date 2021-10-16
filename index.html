@@ -21,104 +21,144 @@
 
 
   <!-- visible content goes here -->
-  <h1>Wikipedia’s Usability Analysis</h1>
-  <div class="intro">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <div class="circle1"></div>
-          <img src="assets/img/translate.png" alt="translate logo" class="translate">
-          <h3 class="language">Language</h3>
-        </div>
-        <div class="col">
-          <div class="circle2"></div>
-          <img src="assets/img/book.png" alt="book logo" class="book">
-          <h3 class="research">Research</h3>
-        </div>
-        <div class="col">
-          <div class="circle3"></div>
-          <img src="assets/img/question.png" alt="question logo" class="question">
-          <h3 class="learn">Learn</h3>
-        </div>
-      </div>
+  <section id="sec-1">
+    <div class="container">
+      <h1>Wikipedia’s Usability Analysis</h1>
+      <a href="#sec-2">
+        <div class="scroll-down"></div>
+      </a>
     </div>
-  </div>
+  </section>
 
-  <div class="tasks">
-    <h1 class="head">Task 1:</h1>
-    <h3 class="bottom">Change from English to Spanish</h3>
-  </div>
-  <div class="tasksDescrip">
-    <p class=experience> Experience </p>
-    <p>User had hard time finding the language tool in the side bar.<br>
-      User had to scroll to the bottom to see obvious language options.</p>
-    <p class=time> Time</p>
-    <p>43.83 seconds</p>
-    <img src="assets/img/translate.png" alt="translate logo" class="taskImg">
-  </div>
+  <section id="sec-2">
+    <div class="container">
+      <h3>Click to see different areas of usability</h3>
+      <a href="#sec-3"><img src="assets/img/translate.png" alt="translate logo" class="taskImg"></a>
+      <a href="#sec-4"><img src="assets/img/book.png" alt="book logo" class="book"></a>
+      <a href="#sec-7"><img src="assets/img/question.png" alt="question logo" class="question"></a>
+    </div>
+  </section>
 
-  <div class="tasks">
-    <h1 class="head">Task 2:</h1>
-    <h3 class="bottom">Find Abraham Lincoln’s Birthday</h3>
-  </div>
-  <div class="tasksDescrip">
-    <p class=experience> Experience </p>
-    <p>User was slightly confused by the in office date.</p>
-    <p class=time> Time</p>
-    <p>17.15 seconds</p>
-    <img src="assets/img/book.png" alt="book logo" class="taskImg">
-  </div>
+  <section id="sec-3">
+    <div class="container">
+      <h1>Translation: Task 1</h1>
+      <h6>Description</h6>
+      <p> User is given the task of <em>changing an article from English to Spanish.</em>
+        There is several ways of doing this, but the intended way from Wikipedia
+        is to use the language option on the side, see video below.</p>
+        <video >
+          <source src="assets/img/task1.mp4" type="video/mp4">
+        </video>
+      <h6>Experience</h6>
+      <ol>
+        <li> User was not able to find the option from the start.
+        <li> User ultimately decided to scroll down to change the language instead
+          of using the side bar option.
+      </ol>
+      <h6>Time Taken </h6>
+      <p> 42.83 seconds 👎</p>
+      <h6>Recommendation</h6>
+      <ul>
+        <li> Consider adding a language option at the top of the page, because
+          users who don't understand the current language will feel very overwhelmed
+          to even continue reading, thus they will exit the website.
+      </ul>
+    </div>
+  </section>
 
-  <div class="tasks">
-    <h1 class="head">Task 3:</h1>
-    <h3 class="bottom">Download article as PDF</h3>
-  </div>
-  <div class="tasksDescrip">
-    <p class=experience> Experience </p>
-    <p>User was able to find the download button sucessfully.</p>
-    <p class=time> Time</p>
-    <p>22.05 seconds</p>
-    <img src="assets/img/book.png" alt="book logo" class="taskImg">
-  </div>
+  <section id="sec-4">
+    <div class="container">
+      <h1>Research: Task 2</h1>
+      <h6>Description</h6>
+      <p> User is given the task of <em>finding Abraham Lincoln's birthday.</em> Usually
+        a person's birthday is either to the right under the box, or in the first
+        line. See video below.</p>
+        <video >
+          <source src="assets/img/task2.mp4" type="video/mp4">
+        </video>
+      <h6>Experience</h6>
+      <ol>
+        <li> User was confused by the in-office data, because that is typically
+          where the birthday appears.
+      </ol>
+      <h6>Time Taken </h6>
+      <p> 17.15 seconds 👍</p>
+      <h6>Recommendation</h6>
+      <ul>
+        <li> Consider having consistency in content arrangement between president
+          and others.
+      </ul>
+    </div>
+  </section>
+  <section id="sec-5">
+    <div class="container">
+      <h1>Research: Task 3</h1>
+      <h6>Description</h6>
+      <p> User is given the task of <em>downloading an article as PDF.</em>
+        There is an option on the side for downloading. See video below.</p>
+        <video >
+          <source src="assets/img/task3.mp4" type="video/mp4">
+        </video>
+      <h6>Experience</h6>
+      <ol>
+        <li> User was tempted to use keyboard options to download at first.
+        <li> User ultimately found the option by scanning through the
+          options on the left side.
+      </ol>
+      <h6>Time Taken </h6>
+      <p> 22.05 seconds 👍</p>
+      <h6>Recommendation</h6>
+      <ul>
+        <li> Consider adding keyboard shortcut for downloading.
+      </ul>
+    </div>
+  </section>
 
-  <div class="tasks">
-    <h1 class="head">Task 4:</h1>
-    <h3 class="bottom">Cite the page</h3>
-  </div>
-  <div class="tasksDescrip">
-    <p class=experience> Experience </p>
-    <p>User looked at the bottom first and then noticed the citation <br>
-      tool in the side bar.</p>
-    <p class=time> Time</p>
-    <p>17.05 seconds</p>
-    <img src="assets/img/book.png" alt="book logo" class="taskImg">
-  </div>
+  <section id="sec-6">
+    <div class="container">
+      <h1>Research: Task 4</h1>
+      <h6>Description</h6>
+      <p> User is given the task of <em>finding citation for an article.</em>
+        There is an option on the side for citing. See video below.</p>
+        <video >
+          <source src="assets/img/task4.mp4" type="video/mp4">
+        </video>
+      <h6>Experience</h6>
+      <ol>
+        <li> User looked at the reference section at the bottom first.
+        <li> User ultimately found the citation option by scanning through the
+          options on the left side.
+      </ol>
+      <h6>Time Taken </h6>
+      <p> 17.05 seconds 👍</p>
+      <h6>Recommendation</h6>
+      <ul>
+        <li> Consider adding citation button at the end of the page, so when users
+          finish reading, they can cited right after.
+      </ul>
+    </div>
+  </section>
 
-  <div class="tasks">
-    <h1 class="head">Task 5:</h1>
-    <h3 class="bottom">Load a random article</h3>
-  </div>
-  <div class="tasksDescrip">
-    <p class=experience> Experience </p>
-    <p>User looked at the bottom first and the body of web. Then, <br>
-      user found the option in the side bar.</p>
-    <p class=time> Time</p>
-    <p>27.70 seconds</p>
-    <img src="assets/img/question.png" alt="question logo" class="taskImg">
-  </div>
-
-  <div class="tasks">
-    <h1 class="headRec">Recommendation</h1>
-  </div>
-  <div class="tasksDescrip">
-    <p class="first">Declutter the side bar</p>
-    <p class="second">Perhaps adding another tool bar at the top</p>
-    <p class="third"> Include keyboard shortcuts </p>
-  </div>
-  <!-- javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+  <section id="sec-7">
+    <div class="container">
+      <h1>Curiousity: Task 5</h1>
+      <h6>Description</h6>
+      <p> User is given the task of <em>loading a random article.</em>
+        There is an option main . See video below.</p>
+        <video >
+          <source src="assets/img/task5.mp4" type="video/mp4">
+        </video>
+      <h6>Experience</h6>
+      <ol>
+        <li> User scrolled down and looked in the body of the page first.
+        <li> User ultimately navigated to the left side and found the option.
+      </ol>
+      <h6>Time Taken </h6>
+      <p> 27.70 seconds 👍</p>
+      <h6>Recommendation</h6>
+      <ul>
+        <li> Consider decluttering the left side panel.
+      </ul>
+    </div>
+  </section>
 </html>
